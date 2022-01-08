@@ -1,7 +1,10 @@
-#1. Create Django project
+### 1. Create Django project
+```
     django-admin startproject project_name
     python manage.py runserver
-#2. Create apps
+```
+### 2. Create apps
+```
     python manage.py startapp app_name
     register our app in admin site config in settings.py -> 'app_name.apps.app_nameConfig'
     In our app:
@@ -22,3 +25,4 @@
     
     5. create admin user
     python manage.py createsuperuser
+```
